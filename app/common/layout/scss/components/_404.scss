@@ -1,0 +1,27 @@
+@import "../helpers/colors";
+
+.not-found{
+  position: relative;
+  color: #fff;
+  flex: 1 1;
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  align-items: center;
+  h1{
+    font-size: 30em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $accent-color;
+    .muted{
+      color: #9a9da2;
+    }
+  }
+  h2{
+    font-weight: 100;
+  }
+
+}

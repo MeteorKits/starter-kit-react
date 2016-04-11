@@ -1,0 +1,5 @@
+.idea
+.deploy
+.DS_Store
+server/accounts_settings.js
+node_modules

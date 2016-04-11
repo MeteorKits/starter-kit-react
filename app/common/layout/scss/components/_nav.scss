@@ -1,0 +1,52 @@
+@import "../helpers/colors";
+
+.nav-primary{
+  position: relative;
+  padding: 20px 0;
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      float: left;
+      margin: 0 20px 0 10px ;
+      position: relative;
+      a{
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 15px 0 12px;
+        color: #fff;
+        color: hsla(0,0%,100%,.7);
+        &:hover{
+          text-decoration: none;
+        }
+        span.line{
+          background-color: $accent-color;
+          position: absolute;
+          left: 50%;
+          top: 100%;
+          border-radius: 10px;
+          opacity: 0;
+          height: 1px;
+
+          -webkit-transition: all .15s linear 0s;
+          transition: all 200ms linear;
+          width: 0;
+        }
+      }
+      &:hover, &.active{
+        span.line{
+          width: 100%;
+          left: 0;
+          top:100%;
+          opacity: 1;
+          height: 3px;
+
+        }
+      }
+    }
+  }
+}

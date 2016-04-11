@@ -1,0 +1,23 @@
+{
+  "name": "meteorkits-starterkit",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "lodash": "^4.9.0",
+    "lodash.camelcase": "^4.1.0",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.0.0",
+    "react-addons-css-transition-group": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-komposer": "^1.8.0",
+    "react-mounter": "^1.2.0",
+    "react-no-ssr": "^1.1.0"
+  },
+  "keywords": [],
+  "author": "Floyd Price",
+  "license": "MIT",
+  "description": ""
+}

@@ -1,0 +1,24 @@
+.cta{
+  color: #fff;
+  flex: 1 1;
+  width: $screen-md-max;
+  text-align: center;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  padding-top: 25vh;
+  align-items: center;
+  position: relative;
+  @media (max-width: $screen-md-max) {
+    width: 100%;
+  }
+  h1{
+    font-size: 5em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  h2{
+    font-weight: 100;
+  }
+
+}

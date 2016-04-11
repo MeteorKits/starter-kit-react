@@ -1,0 +1,15 @@
+.footer{
+  text-align: center;
+  margin: 25px;
+  color: #a6a6a6;
+  text-transform:uppercase;
+  .fa{
+    color: lighten($accent-color, 15%);
+  }
+  a{
+    &:hover{
+      color: $accent-color;
+      text-decoration: none;
+    }
+  }
+}

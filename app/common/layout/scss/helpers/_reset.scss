@@ -1,0 +1,31 @@
+a{
+  &:active, &:visited, &:focus{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+  }
+}
+
+::-webkit-input-placeholder {
+  font-weight: 100;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-weight: 100;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-weight: 100;
+}
+
+:-ms-input-placeholder {
+  font-weight: 100;
+}
+
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
