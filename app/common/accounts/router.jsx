@@ -1,11 +1,11 @@
 import {FlowRouter} from 'meteor/kadira:flow-router-ssr'
 import React from 'react'
 import {mount} from 'react-mounter'
-import LoginLayout from './../layout/components/LoginLayout'
+import LoginLayout from './layout/components/LoginLayout'
 import SignIn  from './sign-in/controller'
 import SignUp from './sign-up/controller'
 
-import GuestFooter from './../layout/components/GuestFooter'
+import GuestFooter from './layout/components/GuestFooter'
 
 
 FlowRouter.route("/sign-in", {

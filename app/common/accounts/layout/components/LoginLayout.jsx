@@ -1,9 +1,11 @@
 import React from 'react'
-import {LandingNavigation, LandingPageBrand} from './LandingNavigation'
-import GitHubRibbon from './GitHubRibbon'
+import {LandingNavigation, LandingPageBrand} from './../../../../marketingSite/layout/components/LandingNavigation'
+import GitHubRibbon from './../../../../marketingSite/layout/components/GitHubRibbon'
+import {TrackingCode} from '../../../../../imports/helpers/ga'
 
 class LoginLayout extends React.Component {
   render() {
+    TrackingCode()
     return (
       <div className="accounts-page">
         <GitHubRibbon />
