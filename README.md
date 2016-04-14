@@ -4,9 +4,13 @@ This is a Meteor 1.3.x and React 15+ starter kit. Use this as the basis for your
 
 [View the Start Kit Demo](https://starterkit-react.meteorkits.com/)
 
+## Home Page
 [![Welcome Page](https://floydprice.com/wp-content/uploads/2016/03/Screen-Shot-2016-03-09-at-16.41.27-1024x576.png)](https://floydprice.com/blog/introducing-meteor-cast-starter-kit/)
 
-## Features
+### Admin Home 
+[![Admin Page](http://cl.ly/2Y3n3M1w3y2F/download/Image%202016-04-14%20at%201.45.26%20pm.png)](https://floydprice.com/blog/introducing-meteor-cast-starter-kit/)
+
+### Features
 
 * Clean modern design
 * Marketing Site and Application Site
