@@ -1,0 +1,37 @@
+.app-page{
+  .layout {
+    .content {
+      .sidebar {
+        .navigation{
+          padding-top: 20px;
+          ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            li{
+              &.active{
+                background-color: #eee;
+                border-right: 2px solid material-color('light-blue', '700');;
+              }
+              &:hover{
+                background-color: #eee;
+              }
+              a{
+                display:block;
+                padding: 10px 15px;
+                font-weight: 500;
+                font-size: 16px;
+                &:hover{
+                  text-decoration: none;
+                }
+                .fa{
+                  padding-right: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

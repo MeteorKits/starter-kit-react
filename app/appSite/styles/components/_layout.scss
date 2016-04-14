@@ -1,0 +1,15 @@
+.app-page {
+  background-color: material-color('grey', '200');
+  -webkit-font-smoothing: antialiased;
+  .layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .body{
+      position:relative;
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+  }
+}

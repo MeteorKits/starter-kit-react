@@ -5,13 +5,14 @@ import _ from 'lodash'
 
 export class SignInController {
   constructor() {
-    this._state = new ReactiveDict
+    this._state = new ReactiveDict()
+    this._state.set({loginServices: []})
     let loginServices = Accounts.loginServiceConfiguration.find().fetch()
     this._state.set("loginServices", loginServices)
-    
   }
 
   get state() {
+
     return {
       errorMessage: this._state.get("errorMessage"),
       hasError: this._state.get("errorMessage") != null,
@@ -24,7 +25,7 @@ export class SignInController {
       if (err) {
         this._state.set("errorMessage", "Login Failed")
       } else {
-        FlowRouter.go("home")
+        FlowRouter.go("Dashboard")
       }
     })
   }
@@ -32,11 +33,11 @@ export class SignInController {
   signInWithPassword(values) {
     if (this._valid(values)) {
       this._state.set("errorMessage", null)
-      Meteor.loginWithPassword(values.username, values.password, (err, resp) => {
+      Meteor.loginWithPassword({username: values.username}, values.password, (err, resp) => {
         if (err) {
           this._state.set("errorMessage", "Login Failed")
         } else {
-          FlowRouter.go("home")
+          FlowRouter.go("Dashboard")
         }
       })
     } else {
@@ -58,6 +59,7 @@ let controller = null
 
 function composer(props, onData) {
   if (!controller) controller = new SignInController()
+
   const state = controller.state
 
   onData(null, {controller, state})

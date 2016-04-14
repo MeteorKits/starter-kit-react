@@ -4,28 +4,27 @@
 body{
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
-  .hero {
-    background: #efefef url(images/bg.jpg) no-repeat bottom right fixed;
-    background-size: cover;
-    position: fixed;
-    top: 0px;
-    bottom:0px;
-    left: 0px;
-    right:0px;
-    &:before {
-      content: '';
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      background-color: rgba(44, 51, 64, 0.7);
-    }
-  }
 
-  .landing-page{
+  .landing-page,  .accounts-page{
     display: flex;
     flex-direction: column;
-
+    .hero {
+      background: #efefef url(images/bg.jpg) no-repeat bottom right fixed;
+      background-size: cover;
+      position: fixed;
+      top: 0px;
+      bottom:0px;
+      left: 0px;
+      right:0px;
+      &:before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(44, 51, 64, 0.7);
+      }
+    }
   }
 }

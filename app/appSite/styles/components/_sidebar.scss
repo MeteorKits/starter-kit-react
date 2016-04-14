@@ -1,0 +1,52 @@
+.app-page {
+  .layout {
+    .content {
+      .sidebar {
+        flex: 0 1 275px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(51, 51, 51, 0.38);
+        display: flex;
+        flex-direction: column;
+        z-index: 15;
+        .profile-pane {
+          min-height: 150px;
+          background: rgb(174, 206, 175) url(/images/foxes.jpg) bottom;
+          background-size: cover;
+          position: relative;
+          &:before{
+            content: '';
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: rgba(44,51,64,.2);
+          }
+          a{
+            color: #fff;
+            position:absolute;
+            bottom: 0px;
+            right: 10px;
+            font-size:16px;
+            z-index: 2;
+            line-height: 32px;
+          }
+          h2 {
+            color: #fff;
+            position:absolute;
+            text-align: left;
+            background-color: rgba(0,0,0,0.3);
+            margin: 0px;
+            width: 100%;
+            bottom: 0px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+
+      }
+
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.app-page {
+  .page {
+    padding: 30px 30px;
+    background-color: material-color('grey', '200');
+    .pageTitle {
+      margin: 0px 0px 30px 20px;
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: material-color('grey', '600');
+    }
+  }
+}

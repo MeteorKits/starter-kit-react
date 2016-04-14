@@ -1,0 +1,16 @@
+.app-page {
+.layout{
+  .header{
+    background-color: material-color('light-blue', '600');
+    padding: 25px;
+    color: #fff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.35);
+    position:relative;
+    z-index: 100;
+    .logo{
+      font-size: 16px;
+    }
+  }
+}
+
+}

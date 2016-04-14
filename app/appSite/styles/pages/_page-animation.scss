@@ -1,0 +1,34 @@
+.app-page{
+
+  .page-enter{
+    //opacity: 0;
+    transition: all 300ms ease-in;
+    transform:  translateX(200%);
+    opacity:1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9;
+  }
+
+  .page-enter-active{
+    opacity: 1;
+    transform:  translateX(0%);
+  }
+
+  .page-leave{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    transition: all 300ms ease-out 200ms, transform 500ms ease-in;
+    opacity: 1;
+    transform: scale(1) translateY(0%) translateX(0%);
+  }
+
+  .page-leave-active{
+    opacity:0;
+    transform:  translateY(0) scale(0.9) translateX(0) ;
+  }
+}

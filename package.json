@@ -19,5 +19,8 @@
   "keywords": [],
   "author": "Floyd Price",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass-material-colors": "0.0.5"
+  }
 }
