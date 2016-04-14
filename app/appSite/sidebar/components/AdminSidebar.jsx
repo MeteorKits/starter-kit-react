@@ -1,5 +1,5 @@
 import React from 'react'
-import {isActiveRoute} from '../../../../imports/helpers/routeHerlpers'
+import {isActiveRoute} from '../../../../imports/helpers/routeHelpers'
 
 export default (props) => {
   return (
