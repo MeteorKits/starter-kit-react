@@ -8,9 +8,6 @@ import DashboardPage from './components/DashboardPage'
 FlowRouter.route("/app", {
   name: "Dashboard",
   action() {
-    
     mount(AppLayout, {layout: <AdminLayout sidebar={<AdminSidebar />} content={<DashboardPage key="dashboard" />} />})
-    
-    
   }
 })
