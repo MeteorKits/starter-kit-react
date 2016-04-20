@@ -29,7 +29,7 @@ This is a Meteor 1.3.x and React 15+ starter kit. Use this as the basis for your
 
 - Clone the repo to your local machine
 - run <code>npm i</code>
-- run <code>npm start</code>
+- run <code>meteor</code>
 - open browser at localhost:3000
 - Start coding your application...
 
