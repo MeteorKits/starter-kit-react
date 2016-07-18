@@ -1,4 +1,5 @@
-Meteor.startup(() => {
+
+function setupSocialAccounts(){
   ServiceConfiguration.configurations.upsert({
     service: "google"
   }, {
@@ -16,4 +17,6 @@ Meteor.startup(() => {
       secret: 'XXX'
     }
   })
-})
+}
+
+export default setupSocialAccounts;
