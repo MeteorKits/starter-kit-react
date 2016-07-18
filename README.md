@@ -33,6 +33,8 @@ This is a Meteor 1.3.x and React 15+ starter kit. Use this as the basis for your
 - run <code>meteor</code>
 - open browser at localhost:3000
 - Start coding your application...
+- (Optional) To include social (outh) services uncomment the line in server/entry.js
+- (Optional) To bootstrap users uncomment the line in server/entry.js
 
 ## Contributing
 
