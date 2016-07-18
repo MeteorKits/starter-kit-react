@@ -19,11 +19,15 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 #autopublish             # Publish all data to the clients (for prototyping)
 #insecure                # Allow all DB writes from clients (for prototyping)
 
+browser-policy
+
 fourseven:scss
 kadira:flow-router-ssr
 reywood:bootstrap3-sass
 kadira:dochead
 fortawesome:fontawesome
+meteortoys:allthings
+alanning:roles
 
 accounts-google
 service-configuration
