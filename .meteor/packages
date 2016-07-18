@@ -24,6 +24,7 @@ kadira:flow-router-ssr
 reywood:bootstrap3-sass
 kadira:dochead
 fortawesome:fontawesome
+meteortoys:allthings
 
 accounts-google
 service-configuration

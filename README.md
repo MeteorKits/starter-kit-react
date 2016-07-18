@@ -20,9 +20,10 @@ This is a Meteor 1.3.x and React 15+ starter kit. Use this as the basis for your
 * 100% React view layer (Even accounts)
 * Based on Meteor 1.3.x and ReactJS 15+ (Latest and greatest)
 * [Stateless function components and containers](https://floydprice.com/blog/creating-react-components-meteor-1-3/)
+* [Meteor Toys](https://atmospherejs.com/meteortoys/allthings) (use Ctrl-M to activate)
 * MIT License
 * Used on a production application
-* Activly maintained
+* Actively maintained
 
 
 ## Getting Started
