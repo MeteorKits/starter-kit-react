@@ -3,7 +3,8 @@ const users = [
   {
     username: 'admin',
     email: 'admin@test.com',
-    password: 'supersecret'
+    password: 'supersecret',
+    admin: true
   },
   {
     username: 'testuser',
@@ -14,9 +15,11 @@ const users = [
 
 function setupDefaultUsers(){
   users.forEach(function (user) {
-    console.log(user);
     if (typeof Meteor.users.findOne({ username : user.username }) !== 'object') {
-      Accounts.createUser(user);
+      let userid = Accounts.createUser(user);
+      if(user.admin){
+        Roles.addUsersToRoles(userid, ['admin'], Roles.GLOBAL_GROUP);
+      }      
     }
   });
 }
